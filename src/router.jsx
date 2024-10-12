@@ -4,6 +4,7 @@ import AuthLayout from "./layouts/AuthLayout";
 import Index from "./views/Index";
 import Login from "./views/Login";
 import Register from "./views/Register";
+import Basket from "./views/Basket";
 
 const router = createBrowserRouter([
     {
@@ -13,6 +14,10 @@ const router = createBrowserRouter([
             {
                 index: true,
                 element: <Index />
+            },
+            {
+                path: '/basket',
+                element: <Basket />
             }
         ]
     },

@@ -1,28 +1,27 @@
 const categories = [
     {
-        icon: "https://pub-bca0576333cb44d6b698d25324b2366a.r2.dev/assets/categories/starters.svg",
         name: "Starters",
         id:1
       },
       {
-        icon: "https://pub-bca0576333cb44d6b698d25324b2366a.r2.dev/assets/categories/burgers.svg",
-        name: "Burgers",
+        name: "Menu",
         id: 2
       },
       {
-        icon: "https://pub-bca0576333cb44d6b698d25324b2366a.r2.dev/assets/categories/drinks.svg",
-        name: "Drinks",
+        name: "Burgers",
         id: 3
       },
       {
-        icon: "https://pub-bca0576333cb44d6b698d25324b2366a.r2.dev/assets/categories/desserts.svg",
-        name: "Sweet ending",
+        name: "Drinks",
         id: 4
       },
       {
-        icon: "https://pub-bca0576333cb44d6b698d25324b2366a.r2.dev/assets/categories/salads.svg",
         name: "Salads",
         id: 5
+      },
+      {
+        name: "Sweet Ending",
+        id: 6
       }
 ]
 
