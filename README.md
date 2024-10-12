@@ -1,8 +1,3 @@
-# React + Vite
+# About KIO WEB
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This KIO project serves as the website that customers will use to place their orders online, eliminating the need to do so at the physical point of sale (POS) of the fictional business. Additionally, backoffice tasks can be efficiently managed, including stock control, order management, and the ability to view orders in the warehouse or kitchen, as well as completed orders.
