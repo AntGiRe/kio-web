@@ -6,6 +6,8 @@ import {
     Typography,
 } from "@material-tailwind/react";
 
+import { Link } from "react-router-dom";
+
 export default function Register() {
     return (
         <Card color="transparent" shadow={false}>
@@ -51,6 +53,18 @@ export default function Register() {
                             className: "before:content-none after:content-none",
                         }}
                     />
+                    <Typography variant="h6" color="blue-gray" className="-mb-3">
+                        Repeat Password
+                    </Typography>
+                    <Input
+                        type="password"
+                        size="lg"
+                        placeholder="********"
+                        className=" !border-t-blue-gray-200 focus:!border-t-gray-900"
+                        labelProps={{
+                            className: "before:content-none after:content-none",
+                        }}
+                    />
                 </div>
                 <Checkbox
                     label={
@@ -75,9 +89,9 @@ export default function Register() {
                 </Button>
                 <Typography color="gray" className="mt-4 text-center font-normal">
                     Already have an account?{" "}
-                    <a href="/auth/login" className="font-medium text-gray-900">
+                    <Link to="/auth/login" className="font-medium text-gray-900">
                         Sign In
-                    </a>
+                    </Link>
                 </Typography>
             </form>
         </Card>

@@ -1,10 +1,11 @@
 import {
     Card,
     Input,
-    Checkbox,
     Button,
     Typography,
 } from "@material-tailwind/react";
+
+import { Link } from "react-router-dom";
 
 export default function Login() {
     return (
@@ -46,9 +47,9 @@ export default function Login() {
                 </Button>
                 <Typography color="gray" className="mt-4 text-center font-normal">
                     Don't have an account yet?{" "}
-                    <a href="/auth/register" className="font-medium text-gray-900">
+                    <Link to="/auth/register" className="font-medium text-gray-900">
                         Sign up
-                    </a>
+                    </Link>
                 </Typography>
             </form>
         </Card>
