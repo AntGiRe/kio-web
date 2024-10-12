@@ -1,11 +1,11 @@
 import { Outlet } from 'react-router-dom'
-import Index from '../views/Index'
+import Sidebar from '../components/Sidebar'
+import ProductsDrawer from '../components/Drawer'
 
 export default function Layout() {
   return (
-    <div>
-        Layout
-
+    <div className='md:flex'>
+        <Sidebar />
         <Outlet />
     </div>
   )
